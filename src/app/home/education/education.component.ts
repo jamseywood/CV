@@ -8,7 +8,7 @@ import {Component} from '@angular/core';
 export class EducationComponent {
 
   constructor() { }
-  public head: any = { title: 'Educatopm', subtitle: 'PERSONAL EDUCATION & ACHIEVEMENTS' };
+  public head: any = { title: 'Education', subtitle: 'PERSONAL EDUCATION & ACHIEVEMENTS' };
 
   
 
