@@ -15,18 +15,18 @@ export class ResumeComponent implements OnInit {
   constructor() {
 
     const job_1: Job = new Job('Senior Angular Developer', '2021-2023', 'EBRD(European Bank of Reconstruction and Development)',
-      '<P> My main focus when joining the team was to to help deliver new features and develop'
-      + 'their micro front-end <b>single-spa</b> application as well as continue build on their already'
-      + 'existing in house component library that was built on material.I also continued to grow the unit <b>test coverage to 80% and above</b>'
-      + 'across all applications that our team owned using <b>Karma</b> and <b>Jasmine</b>. I was then'
-      + 'included in upgrading all applications to latest angular and then migrating all micro'
-      + 'front-end applications from single-spa to <b>Module Federation</b> (25 different micro frontends), while still maintaining the single-spa functionality until the work had been complete'
-      + 'at which time we could turn off the single-spa container application. My role included'
-      + 'helping other developers across 5 international teams within the bank to deliver features'
-      + 'and maintain code quality as well as helping out with devlops issues such as ingress files'
-      + 'not being setup correctly in <b>Kubernetes</b> or broken <b>Jenkins pipelines</b>. I often helped with releases, and'
-      + 'end user support issues which included investigating <b>Kibana</b> logs and exploring potential'
-      + 'data issues. During my time at EBRD I also setup <b>Cypress</b> E2E tests as well as intergrate'
+      '<P>My main focus when joining the team was to to help deliver new features and develop '
+      + 'their micro front-end <b>single-spa</b> application as well as continue build on their already '
+      + 'existing in house component library that was built on material.I also continued to grow the unit <b>test coverage to 80% and above</b> '
+      + 'across all applications that our team owned using <b>Karma</b> and <b>Jasmine</b>. I was then '
+      + 'included in upgrading all applications to latest angular and then migrating all micro '
+      + 'front-end applications from single-spa to <b>Module Federation</b> (25 different micro frontends), while still maintaining the single-spa functionality until the work had been complete '
+      + 'at which time we could turn off the single-spa container application. My role included '
+      + 'helping other developers across 5 international teams within the bank to deliver features '
+      + 'and maintain code quality as well as helping out with devlops issues such as ingress files '
+      + 'not being setup correctly in <b>Kubernetes</b> or broken <b>Jenkins pipelines</b>. I often helped with releases, and '
+      + 'end user support issues which included investigating <b>Kibana</b> logs and exploring potential '
+      + 'data issues. During my time at EBRD I also setup <b>Cypress</b> E2E tests as well as intergrate '
       + 'them as part of our build pipelines when releasing applications to testing environments </p>'
       , 1);
 
