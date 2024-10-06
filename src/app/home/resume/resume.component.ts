@@ -14,30 +14,45 @@ export class ResumeComponent implements OnInit {
 
   constructor() {
 
-    const job_1: Job = new Job('Senior Angular Developer', '2021-2023', 'EBRD(European Bank of Reconstruction and Development)',
-      '<P>My main focus when joining the team was to to help deliver new features and develop '
-      + 'their micro front-end <b>single-spa</b> application as well as continue build on their already '
-      + 'existing in house component library that was built on material.I also continued to grow the unit <b>test coverage to 80% and above</b> '
-      + 'across all applications that our team owned using <b>Karma</b> and <b>Jasmine</b>. I was then '
-      + 'included in upgrading all applications to latest angular and then migrating all micro '
-      + 'front-end applications from single-spa to <b>Module Federation</b> (25 different micro frontends), while still maintaining the single-spa functionality until the work had been complete '
-      + 'at which time we could turn off the single-spa container application. My role included '
-      + 'helping other developers across 5 international teams within the bank to deliver features '
-      + 'and maintain code quality as well as helping out with devlops issues such as ingress files '
-      + 'not being setup correctly in <b>Kubernetes</b> or broken <b>Jenkins pipelines</b>. I often helped with releases, and '
-      + 'end user support issues which included investigating <b>Kibana</b> logs and exploring potential '
-      + 'data issues. During my time at EBRD I also setup <b>Cypress</b> E2E tests as well as intergrate '
+    const metamorf: Job = new Job('Senior React Engineer', '2024-present', 'Metamorf AI',
+      '<P> I joined <b>Metamorf</b> in February to help deliver a project for <b>Slaughter & May</b>, a prestigious law firm.'
+      + 'The project involved developing an analytics platform to provide detailed cost breakdowns of legal cases. The <b>tech stack</b> '
+      + 'included <b>React Native, Expo, Turbo, ECharts, and Unistyles.</b> '
+      + 'My primary responsibilities involved managing a multidisciplinary team, including front-end and back-end developers, '
+      + 'as well as data scientists. This included facilitating daily stand-ups, setting up and maintaining the Jira board, '
+      + 'and establishing technical standards such as guidelines for pull requests and testing protocols. '
+      + 'I also contributed by building custom components and implementing coding standards and best practices. '
+      + 'After the successful completion of the project, I was asked to stay on and lead the development of a new application with similar functionality'
+      + 'but a completely bespoke design, intended for other law firms. '
+      + 'As part of this project, my team and I created a custom component library and several bespoke charts and elements tailored to the application’s needs. '
+      + 'Additionally, I played a key role in building a new development team by conducting interviews for both front-end and back-end roles, while also offering recommendations '
+      + 'on delivery strategy and development processes. </P>'
+      , 1);
+
+    const ebrd: Job = new Job('Senior Angular Engineer', '2021-2023', 'EBRD(European Bank of Reconstruction and Development)',
+      '<P> My main focus when joining the team was to to help deliver new features and develop'
+      + 'their micro front-end <b>single-spa</b> application as well as continue build on their already'
+      + 'existing in house component library that was built on material.I also continued to grow the unit <b>test coverage to 80% and above</b>'
+      + 'across all applications that our team owned using <b>Karma</b> and <b>Jasmine</b>. I was then'
+      + 'included in upgrading all applications to latest angular and then migrating all micro'
+      + 'front-end applications from single-spa to <b>Module Federation</b> (25 different micro frontends), while still maintaining the single-spa functionality until the work had been complete'
+      + 'at which time we could turn off the single-spa container application. My role included'
+      + 'helping other developers across 5 international teams within the bank to deliver features'
+      + 'and maintain code quality as well as helping out with devlops issues such as ingress files'
+      + 'not being setup correctly in <b>Kubernetes</b> or broken <b>Jenkins pipelines</b>. I often helped with releases, and'
+      + 'end user support issues which included investigating <b>Kibana</b> logs and exploring potential'
+      + 'data issues. During my time at EBRD I also setup <b>Cypress</b> E2E tests as well as intergrate'
       + 'them as part of our build pipelines when releasing applications to testing environments </p>'
       , 1);
 
 
-    const job_2: Job = new Job('Senior Front-end Developer (React & Vue.js)', '2022-2023', 'Samba Saftey (based in USA)',
+    const samba: Job = new Job('Senior Front-end Engineer (React & Vue.js)', '2022-2023', 'Samba Saftey (based in USA)',
       '<P>My role was to help stabalize the application initially as there were a lot of complications when they started consuming real data from their partners. Once the application was stablizaed '
       + 'my role transitioned to implemented new features in to their already existing micro front-end <b>single-spa</b> application built in <b>React</b> and <b>Vue.js</b>. The project was focused on retrieving vehicle fleet data '
       + 'and generate reports for buisness to provide insight into their fleets performance. The backend was built in Java and I often helped out with debugging missing or broken data models</p>', 1);
 
 
-    const job_3: Job = new Job('Senior Angular Developer', '2021-2022', 'Collision Management Systems',
+    const cms: Job = new Job('Senior Angular Engineer', '2021-2022', 'Collision Management Systems',
       '<P>I was brought in to build and complete this start ups MVP in order for them to be able to recieve their next round of funding. Their MVP was a complete admin portal where theier customers are to add their organisations '
       + 'and users and setup their roles and permissions for interaction with our application. This was succefully implemented and taken to production. I think built out a strong front-end team where we built core funcationality for the '
       + 'business including easy to understand statistical pages using <b>ng-charts</b> and <b>chart.js</b>,We implemented webhook intergration features and accident reconstruction maps. We also introducted state management using '
@@ -45,7 +60,7 @@ export class ResumeComponent implements OnInit {
 
 
 
-    const job_4: Job = new Job('Senior Angular Developer', '2021', 'Vashi',
+    const vashi: Job = new Job('Senior Angular Engineer', '2021', 'Vashi',
       '<P>I joined the team with goal to take over the project from a consulting company with the '
       + 'view of a like for like green pastures re-write from what was implemented with the 3rd '
       + 'party consulting company. My focus was shared between the front-end infrastructure '
@@ -55,7 +70,7 @@ export class ResumeComponent implements OnInit {
       + '', 1);
 
 
-    const job_5: Job = new Job('Senior Front-end Developer', '2020', 'AirOps/Gamma Aviation ',
+    const airops: Job = new Job('Senior Front-end Engineer', '2020', 'AirOps/Gamma Aviation ',
       '<P>I joined the core engineering team with my main focus in developing key features needed '
       + 'to complete sales pipelines. I helped set and maintain development '
       + 'standards for our integrations with 3rd party services as well as our backend teams. I '
@@ -64,7 +79,7 @@ export class ResumeComponent implements OnInit {
       + 'bug support. </p>', 1);
 
 
-    const job_6: Job = new Job('Senior Angular Developer', '2020', 'MY HSM',
+    const hsm: Job = new Job('Senior Angular Engineer', '2020', 'MY HSM',
       '<P>I joined the team in early stages of project creation. I played a key role in developing core '
       + 'features for the company&prime;s portal application which their customers '
       + 'would be using to secure their transactions. My focus was developing customer facing '
@@ -72,7 +87,7 @@ export class ResumeComponent implements OnInit {
       + 'by the PHP Laravel backend. I worked very closely with the business units to successfully '
       + 'release the portal into production. </P>', 1);
 
-    const job_7: Job = new Job('Full-stack Developer', '2020', 'Medscheme (South Africa)',
+    const medscheme: Job = new Job('Full-stack Developer', '2020', 'Medscheme (South Africa)',
       '<P>I was asked to join the project to assist in completing an Angular, Spring Boot Java '
       + 'project that was behind schedule. My responsibilities were to ascertain what '
       + 'functionality was business critical and help complete critical functionality in order to '
@@ -103,7 +118,7 @@ export class ResumeComponent implements OnInit {
       + 'front end project, creating the Jenkins pipelines, Dockerizing the applications and '
       + 'creating deployments and pods for Kubernetes. </P>', 1);
 
-    const job_8: Job = new Job('Full-stack Developer', '2017', 'Standard Bank (South Africa)',
+    const standardBank: Job = new Job('Full-stack Developer', '2017', 'Standard Bank (South Africa)',
       '<P>During my time at Wesbank I was involved in a few different projects. My first project was '
       + 'to help develop and deploy an e-commerce ADF application into WebCenter and '
       + 'WebLogic. I was involved in the development styling and defect resolution. This project '
@@ -121,13 +136,13 @@ export class ResumeComponent implements OnInit {
       + 'from Artifactory to Nexus. I also did end of line support for most of the applications that '
       + 'fell under our teams realm.. </P>', 1);
 
-    const job_9: Job = new Job('ADF Developer', '2014', 'REDISA (South Africa)',
+    const redisa: Job = new Job('ADF Developer', '2014', 'REDISA (South Africa)',
       '<P>Having successfully taken this product to production, the stakeholders decided to rewrite the entire system using the Fusion Middleware stack. My role was to help build '
       + 'what was originally done in PHP into ADF, and then deploy the working application into '
       + 'WebCenter where I was able to then skin the application before also documenting and '
       + 'providing training manuals for the new system. </P>', 1);
 
-    const job_10: Job = new Job('Junior ADF Developer', '2013-2014', 'Gijima (South Africa)',
+    const gijima: Job = new Job('Junior ADF Developer', '2013-2014', 'Gijima (South Africa)',
       '<P>I joined the team in early stages of project creation. I played a key role in developing core '
       + 'features for the company&prime;s portal application which their customers '
       + 'would be using to secure their transactions. My focus was developing customer facing '
@@ -135,7 +150,7 @@ export class ResumeComponent implements OnInit {
       + 'by the PHP Laravel backend. I worked very closely with the business units to successfully '
       + 'release the portal into production. </P>', 1);
 
-    const job_11: Job = new Job('Junior PHP Developer', '2012-2013', 'REDISA (South Africa)',
+    const iFactory: Job = new Job('Junior PHP Developer', '2012-2013', 'REDISA (South Africa)',
       '<P>This was a government funded start-up company that created infrastructure to recycle '
       + 'and reuse tyres. My main role was to help develop business solutions and then transform '
       + 'them into working modules for a greater web application. The front end was mainly '
@@ -143,7 +158,7 @@ export class ResumeComponent implements OnInit {
       + 'database. </P>', 1);
 
 
-    this.jobs = [job_1, job_2, job_3, job_4, job_5, job_6, job_7, job_8, job_9, job_10, job_11];
+    this.jobs = [metamorf, ebrd, samba, cms, vashi, airops, hsm, medscheme, standardBank, redisa, gijima, iFactory];
   }
 
 
